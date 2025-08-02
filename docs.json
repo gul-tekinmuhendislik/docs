@@ -2,8 +2,8 @@
   "name": "Gül-tekin Mühendislik",
   "favicon": "/favicon.svg",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/gul-tekin-logo.png",
+    "light": "/logo/gul-tekin-logo.png"
   },
   "theme": "mint",
   "colors": {
