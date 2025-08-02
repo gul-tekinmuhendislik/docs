@@ -5,6 +5,7 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "theme": "mint",
   "topbarLinks": [
     {
       "name": "Website",
