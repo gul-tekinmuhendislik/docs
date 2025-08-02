@@ -6,23 +6,28 @@
     "light": "/logo/light.svg"
   },
   "theme": "mint",
+  "colors": {
+    "primary": "#0066CC"
+  },
   "topbarLinks": [
     {
       "name": "Website",
       "url": "https://gul-tekinmuhendislik.com"
     }
   ],
-  "navigation": [
-    {
-      "group": "Başlarken",
-      "pages": [
-        "index",
-        "hizmetlerimiz",
-        "markalar",
-        "contact"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Başlarken",
+        "pages": [
+          "index",
+          "hizmetlerimiz",
+          "markalar",
+          "contact"
+        ]
+      }
+    ]
+  },
   "footerSocials": {
     "website": "https://gul-tekinmuhendislik.com"
   }
