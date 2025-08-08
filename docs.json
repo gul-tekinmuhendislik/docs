@@ -25,6 +25,148 @@
           "markalar",
           "contact"
         ]
+      },
+      {
+        "group": "Isı Pompaları",
+        "pages": [
+          "isi-pompalari/genel-bilgi",
+          "isi-pompalari/varmeks-seriler",
+          "isi-pompalari/baymak-modelleri",
+          "isi-pompalari/secim-kriterleri",
+          "isi-pompalari/montaj-ve-bakim"
+        ]
+      },
+      {
+        "group": "Su Depoları",
+        "pages": [
+          "su-depolari/genel-bilgi",
+          "su-depolari/moduslu-tanklar",
+          "su-depolari/paslanmaz-tanklar",
+          "su-depolari/karamis-tip",
+          "su-depolari/bakim-ve-yenileme"
+        ]
+      },
+      {
+        "group": "Güneş Enerji Sistemleri",
+        "pages": [
+          "gunes-enerji/genel-bilgi",
+          "gunes-enerji/dalikilik-sistemler",
+          "gunes-enerji/kapali-devre-sistemler",
+          "gunes-enerji/kolektorler",
+          "gunes-enerji/fotovoltaik-sistemler",
+          "gunes-enerji/kurulum-ve-bakim"
+        ]
+      },
+      {
+        "group": "Yerden Isıtma Sistemleri",
+        "pages": [
+          "yerden-isitma/genel-bilgi",
+          "yerden-isitma/avantajlar",
+          "yerden-isitma/sistem-bilesenleri",
+          "yerden-isitma/uygulama-alanlari",
+          "yerden-isitma/rehau-sistemleri"
+        ]
+      },
+      {
+        "group": "Su Arıtma Sistemleri",
+        "pages": [
+          "su-aritma/genel-bilgi",
+          "su-aritma/yumusatma-sistemleri",
+          "su-aritma/filtreleme-sistemleri",
+          "su-aritma/ters-osmoz",
+          "su-aritma/ultraviyole-dezenfeksiyon"
+        ]
+      },
+      {
+        "group": "Hidrofor Sistemleri",
+        "pages": [
+          "hidrofor/genel-bilgi",
+          "hidrofor/sistem-bilesenleri",
+          "hidrofor/avantajlar",
+          "hidrofor/secim-kriterleri",
+          "hidrofor/montaj-ve-bakim"
+        ]
+      },
+      {
+        "group": "Termosifon Sistemleri",
+        "pages": [
+          "termosifon/genel-bilgi",
+          "termosifon/calisma-prensibi",
+          "termosifon/kapasiteler",
+          "termosifon/kurulum-secenekleri",
+          "termosifon/bakim"
+        ]
+      },
+      {
+        "group": "Radyatör Sistemleri",
+        "pages": [
+          "radyator/genel-bilgi",
+          "radyator/aluminyum-radyatorler",
+          "radyator/panel-radyatorler",
+          "radyator/dokmum-radyatorler",
+          "radyator/aksesuarlar"
+        ]
+      },
+      {
+        "group": "Klima Sistemleri",
+        "pages": [
+          "klima/genel-bilgi",
+          "klima/split-klimalar",
+          "klima/multi-split-sistemler",
+          "klima/vrf-sistemler",
+          "klima/enerji-verimliligi"
+        ]
+      },
+      {
+        "group": "Sıhhi Tesisat",
+        "pages": [
+          "sihhi-tesisat/genel-bilgi",
+          "sihhi-tesisat/temiz-su-tesisati",
+          "sihhi-tesisat/pis-su-tesisati",
+          "sihhi-tesisat/yagmur-suyu-tesisati",
+          "sihhi-tesisat/malzemeler"
+        ]
+      },
+      {
+        "group": "Soğutma Sistemleri",
+        "pages": [
+          "sogutma/genel-bilgi",
+          "sogutma/soguk-odalar",
+          "sogutma/endustriyel-sogutma",
+          "sogutma/ciller-sistemleri",
+          "sogutma/soguk-hava-depolari"
+        ]
+      },
+      {
+        "group": "Markalar",
+        "pages": [
+          "markalar/varmeks",
+          "markalar/baymak",
+          "markalar/eraslan",
+          "markalar/panasonic",
+          "markalar/burak",
+          "markalar/jinko",
+          "markalar/fronius",
+          "markalar/solimpeks",
+          "markalar/tse",
+          "markalar/rehau",
+          "markalar/tds",
+          "markalar/vesbo",
+          "markalar/honeywell",
+          "markalar/siemens",
+          "markalar/caleffi",
+          "markalar/general",
+          "markalar/aqualine",
+          "markalar/atlas",
+          "markalar/element",
+          "markalar/atlantis",
+          "markalar/wilo",
+          "markalar/wepomp",
+          "markalar/eds",
+          "markalar/eca",
+          "markalar/standart",
+          "markalar/grundfos"
+        ]
       }
     ]
   },
