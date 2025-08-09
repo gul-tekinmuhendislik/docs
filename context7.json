@@ -1,9 +1,9 @@
 {
   "settings": {
-    "title": "Mintlify Starter Kit",
+    "title": "Gül-tekin Mühendislik",
     "project": "/gul-tekinmuhendislik/docs",
     "type": "repo",
-    "description": "A starter kit for deploying and customizing documentation, featuring guide pages, navigation, customizations, API references, and popular components.",
+    "description": "Bodrumda Isı Pompası Hidrofor Sistemleri Su Depoları ve Güneş Enerjisi",
     "docsRepoUrl": "https://github.com/gul-tekinmuhendislik/docs",
     "folders": [],
     "excludeFolders": [
