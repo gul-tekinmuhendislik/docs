@@ -9,6 +9,11 @@
   "colors": {
     "primary": "#0066CC"
   },
+  "metadata": {
+    "og:site_name": "Gül-tekin Mühendislik",
+    "og:type": "website",
+    "twitter:card": "summary_large_image"
+  },
   "custom_css": [
     "custom.css"
   ],

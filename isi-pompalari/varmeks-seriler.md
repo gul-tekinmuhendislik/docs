@@ -1,3 +1,8 @@
+---
+title: "Varmeks Isı Pompaları Seriler ve Özellikleri"
+description: "Varmeks ısı pompası modelleri: Varm Up, Varmette, Varkool, Hybrid Heat serilerinin teknik özellikleri, kapasiteleri ve kullanım alanları."
+---
+
 # Varmeks Isı Pompaları Seriler ve Özellikleri
 
 Varmeks ısı pompaları, farklı ihtiyaçlara ve kullanım alanlarına yönelik çeşitli seriler sunmaktadır. Bu serilerin başlıca özellikleri ve kullanım alanları aşağıda detaylandırılmıştır:

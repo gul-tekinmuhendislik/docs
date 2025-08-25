@@ -1,3 +1,8 @@
+---
+title: "Isı Pompaları Hakkında Genel Bilgiler"
+description: "Isı pompası nedir, nasıl çalışır? Hava, su ve toprak kaynaklı ısı pompası çeşitleri, avantajları ve uygulama alanları hakkında detaylı bilgiler."
+---
+
 # Isı Pompaları Hakkında Genel Bilgiler
 
 ## Isı Pompası Nedir?
