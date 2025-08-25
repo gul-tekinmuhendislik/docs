@@ -9,6 +9,9 @@
   "colors": {
     "primary": "#0066CC"
   },
+  "custom_css": [
+    "custom.css"
+  ],
   "topbarLinks": [
     {
       "name": "Website",

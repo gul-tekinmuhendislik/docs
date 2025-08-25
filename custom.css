@@ -1,0 +1,104 @@
+.link-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  transition: all 0.2s ease;
+  background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.link-card.featured {
+  border: 2px solid #0066CC;
+  background: linear-gradient(135deg, #EFF6FF 0%, #ffffff 100%);
+  box-shadow: 0 10px 25px -5px rgba(0, 102, 204, 0.1), 0 10px 10px -5px rgba(0, 102, 204, 0.04);
+  padding: 24px;
+  margin: 30px 0;
+}
+
+.link-card:hover {
+  border-color: #0066CC;
+  box-shadow: 0 4px 6px -1px rgba(0, 102, 204, 0.1), 0 2px 4px -1px rgba(0, 102, 204, 0.06);
+  transform: translateY(-2px);
+}
+
+.link-card-content h3 {
+  color: #111827;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.link-card-content p {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+
+.link-card-cta {
+  color: #0066CC;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-card:hover .link-card-cta {
+  text-decoration: underline;
+}
+
+/* Dark mode styles */
+[data-theme="dark"] .link-card {
+  background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  border-color: #374151;
+}
+
+[data-theme="dark"] .link-card:hover {
+  border-color: #60a5fa;
+  box-shadow: 0 4px 6px -1px rgba(96, 165, 250, 0.2);
+}
+
+[data-theme="dark"] .link-card-content h3 {
+  color: #f9fafb;
+}
+
+[data-theme="dark"] .link-card-content p {
+  color: #9ca3af;
+}
+
+[data-theme="dark"] .link-card-cta {
+  color: #60a5fa;
+}
+
+/* Badge styles */
+.badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #0066CC, #0052A3);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.link-card.featured:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 35px -5px rgba(0, 102, 204, 0.15), 0 15px 15px -5px rgba(0, 102, 204, 0.08);
+}
+
+/* Dark mode featured card */
+[data-theme="dark"] .link-card.featured {
+  border-color: #60a5fa;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  box-shadow: 0 10px 25px -5px rgba(96, 165, 250, 0.2), 0 10px 10px -5px rgba(96, 165, 250, 0.1);
+}
+
+[data-theme="dark"] .badge {
+  background: linear-gradient(135deg, #60a5fa, #3b82f6);
+}
