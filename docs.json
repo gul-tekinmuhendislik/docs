@@ -24,90 +24,65 @@
     }
   ],
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Başlarken",
-        "pages": [
-          "index",
-          "hizmetlerimiz",
-          "markalar",
-          "contact"
+        "tab": "Ana Menü",
+        "icon": "house",
+        "groups": [
+          {
+            "group": "Başlarken",
+            "pages": [
+              "index",
+              "hizmetlerimiz",
+              "markalar",
+              "contact"
+            ]
+          },
+          {
+            "group": "Tüm Hizmetlerimiz",
+            "pages": [
+              "hizmetlerimiz/isi-pompalari",
+              "hizmetlerimiz/su-depolari",
+              "hizmetlerimiz/gunes-enerjisi",
+              "hizmetlerimiz/yerden-isitma-sistemleri",
+              "hizmetlerimiz/su-aritma-sistemleri",
+              "hizmetlerimiz/hidrofor-sistemleri",
+              "hizmetlerimiz/termosifonik-sistemler",
+              "hizmetlerimiz/radyator",
+              "hizmetlerimiz/klima-sistemleri",
+              "hizmetlerimiz/mekanik-sihhi-tesisat",
+              "hizmetlerimiz/pompalar",
+              "hizmetlerimiz/sulama-sistemleri",
+              "hizmetlerimiz/tahliye-istasyonu",
+              "hizmetlerimiz/akilli-oda-termostatlari"
+            ]
+          },
+          {
+            "group": "Tüm Markalar",
+            "pages": [
+              "markalar/alarko", "markalar/aldea", "markalar/aqualine", "markalar/astral", "markalar/atlantis", "markalar/atlas", "markalar/baylan", "markalar/baymak", "markalar/beser", "markalar/burak", "markalar/caleffi", "markalar/demirdokum", "markalar/eca", "markalar/eds", "markalar/element", "markalar/eraslan", "markalar/fronius", "markalar/general", "markalar/grundfos", "markalar/hakan-plastik", "markalar/honeywell", "markalar/jinko", "markalar/lg", "markalar/mega", "markalar/nobo", "markalar/panasonic", "markalar/ph-mekanik", "markalar/pimtas", "markalar/radyal", "markalar/rain-bird", "markalar/rehau", "markalar/sanihydro", "markalar/siemens", "markalar/solimpeks", "markalar/standart", "markalar/sukar", "markalar/teksan", "markalar/tekneciler", "markalar/toshiba", "markalar/varmeks", "markalar/vesbo", "markalar/vitra", "markalar/wepomp", "markalar/wilo", "markalar/yelkenci"
+            ]
+          }
         ]
       },
       {
-        "group": "Hizmetlerimiz",
+        "tab": "Güneş Enerjisi",
+        "icon": "sun",
         "pages": [
-          "hizmetlerimiz/isi-pompalari",
-          "hizmetlerimiz/su-depolari",
           "hizmetlerimiz/gunes-enerjisi",
-          "hizmetlerimiz/yerden-isitma-sistemleri",
-          "hizmetlerimiz/su-aritma-sistemleri",
-          "hizmetlerimiz/hidrofor-sistemleri",
-          "hizmetlerimiz/termosifonik-sistemler",
-          "hizmetlerimiz/radyator",
-          "hizmetlerimiz/klima-sistemleri",
-          "hizmetlerimiz/mekanik-sihhi-tesisat",
-          "hizmetlerimiz/pompalar",
-          "hizmetlerimiz/sulama-sistemleri",
-          "hizmetlerimiz/tahliye-istasyonu",
-          "hizmetlerimiz/akilli-oda-termostatlari"
-        ]
-      },
-      {
-        "group": "Isı Pompaları",
-        "pages": [
-          "isi-pompalari/genel-bilgi",
-          "isi-pompalari/varmeks-seriler"
-        ]
-      },
-      {
-        "group": "Markalar",
-        "pages": [
-          "markalar/alarko",
-          "markalar/aldea",
-          "markalar/aqualine",
-          "markalar/astral",
-          "markalar/atlantis",
-          "markalar/atlas",
-          "markalar/baylan",
-          "markalar/baymak",
-          "markalar/beser",
-          "markalar/burak",
-          "markalar/caleffi",
-          "markalar/demirdokum",
-          "markalar/eca",
-          "markalar/eds",
-          "markalar/element",
-          "markalar/eraslan",
-          "markalar/fronius",
-          "markalar/general",
-          "markalar/grundfos",
-          "markalar/hakan-plastik",
-          "markalar/honeywell",
-          "markalar/jinko",
-          "markalar/lg",
-          "markalar/mega",
-          "markalar/nobo",
-          "markalar/panasonic",
-          "markalar/ph-mekanik",
-          "markalar/pimtas",
-          "markalar/radyal",
-          "markalar/rain-bird",
-          "markalar/rehau",
-          "markalar/sanihydro",
-          "markalar/siemens",
-          "markalar/solimpeks",
-          "markalar/standart",
-          "markalar/sukar",
-          "markalar/teksan",
-          "markalar/tekneciler",
-          "markalar/toshiba",
-          "markalar/varmeks",
-          "markalar/vesbo",
-          "markalar/vitra",
-          "markalar/wepomp",
-          "markalar/wilo",
-          "markalar/yelkenci"
+          "hizmetlerimiz/gunes-enerjisi-ile-elektrik-uretimi",
+          "hizmetlerimiz/gunes-enerjisi-ile-su-isitma",
+          {
+            "group": "Öne Çıkan Markalar",
+            "pages": [
+              "markalar/solimpeks",
+              "markalar/panasonic",
+              "markalar/jinko",
+              "markalar/fronius",
+              "markalar/eraslan",
+              "markalar/burak"
+            ]
+          }
         ]
       }
     ]
