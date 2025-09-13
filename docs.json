@@ -5,9 +5,23 @@
     "dark": "/logo/gul-tekin-logo.png",
     "light": "/logo/gul-tekin-logo.png"
   },
-  "theme": "mint",
+  "theme": "willow",
   "colors": {
-    "primary": "#0066CC"
+    "primary": "#6366F1",
+    "light": {
+      "primary": "#6366F1",
+      "background": "#FFFFFF",
+      "foreground": "#0F172A",
+      "muted": "#F8FAFC",
+      "border": "#E2E8F0"
+    },
+    "dark": {
+      "primary": "#818CF8",
+      "background": "#0F172A",
+      "foreground": "#F8FAFC",
+      "muted": "#1E293B",
+      "border": "#334155"
+    }
   },
   "metadata": {
     "og:site_name": "Gül-tekin Mühendislik",
@@ -89,7 +103,15 @@
   },
   "banner": {
     "content": "✨ Yapay Zeka Destekli Yeni Mühendislik Asistanımızı Keşfedin! [Hemen Deneyin](https://ai.gul-tekinmuhendislik.com/)",
-    "dismissible": true
+    "dismissible": true,
+    "backgroundColor": "#6366F1"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "search": {
+    "prompt": "Arama yapın..."
   },
   "footerSocials": {
     "website": "https://gul-tekinmuhendislik.com"
