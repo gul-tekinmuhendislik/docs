@@ -8,20 +8,8 @@
   "theme": "willow",
   "colors": {
     "primary": "#6366F1",
-    "light": {
-      "primary": "#6366F1",
-      "background": "#FFFFFF",
-      "foreground": "#0F172A",
-      "muted": "#F8FAFC",
-      "border": "#E2E8F0"
-    },
-    "dark": {
-      "primary": "#818CF8",
-      "background": "#0F172A",
-      "foreground": "#F8FAFC",
-      "muted": "#1E293B",
-      "border": "#334155"
-    }
+    "light": "#6366F1",
+    "dark": "#818CF8"
   },
   "metadata": {
     "og:site_name": "Gül-tekin Mühendislik",
