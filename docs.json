@@ -112,6 +112,10 @@
       }
     ]
   },
+  "banner": {
+    "content": "✨ Yapay Zeka Destekli Yeni Mühendislik Asistanımızı Keşfedin! [Hemen Deneyin](https://ai.gul-tekinmuhendislik.com/)",
+    "dismissible": true
+  },
   "footerSocials": {
     "website": "https://gul-tekinmuhendislik.com"
   }
