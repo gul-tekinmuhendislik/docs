@@ -86,6 +86,37 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Hidrofor Sistemleri",
+        "icon": "droplet",
+        "pages": [
+          "hizmetlerimiz/hidrofor-sistemleri",
+          {
+            "group": "Hidrofor Markaları",
+            "pages": [
+              "markalar/aldea",
+              "markalar/atlantis",
+              "markalar/baymak",
+              "markalar/caleffi",
+              "markalar/eca",
+              "markalar/eds",
+              "markalar/grundfos",
+              "markalar/standart",
+              "markalar/teksan",
+              "markalar/wepomp",
+              "markalar/wilo"
+            ]
+          },
+          {
+            "group": "İlgili Hizmetler",
+            "pages": [
+              "hizmetlerimiz/pompalar",
+              "hizmetlerimiz/su-depolari",
+              "hizmetlerimiz/tahliye-istasyonu"
+            ]
+          }
+        ]
       }
     ]
   },
