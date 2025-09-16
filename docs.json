@@ -23,6 +23,14 @@
     {
       "name": "Website",
       "url": "https://gul-tekinmuhendislik.com"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://api.whatsapp.com/send/?phone=905323177859"
+    },
+    {
+      "name": "Konum",
+      "url": "https://share.google/VJ161BKEdDPp0vMKU"
     }
   ],
   "navigation": {
@@ -117,6 +125,94 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Isı Pompaları",
+        "icon": "thermometer",
+        "pages": [
+          "hizmetlerimiz/isi-pompalari",
+          {
+            "group": "Isı Pompası Markaları",
+            "pages": [
+              "markalar/alarko",
+              "markalar/baymak",
+              "markalar/demirdokum",
+              "markalar/eca",
+              "markalar/lg",
+              "markalar/panasonic",
+              "markalar/toshiba",
+              "markalar/varmeks"
+            ]
+          },
+          {
+            "group": "İlgili Hizmetler",
+            "pages": [
+              "hizmetlerimiz/yerden-isitma-sistemleri",
+              "hizmetlerimiz/klima-sistemleri",
+              "hizmetlerimiz/radyator"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Su Depoları",
+        "icon": "database",
+        "pages": [
+          "hizmetlerimiz/su-depolari",
+          {
+            "group": "Su Deposu Markaları",
+            "pages": [
+              "markalar/aldea",
+              "markalar/aqualine",
+              "markalar/atlantis",
+              "markalar/eds",
+              "markalar/hakan-plastik",
+              "markalar/mega",
+              "markalar/pimtas",
+              "markalar/standart",
+              "markalar/sukar",
+              "markalar/vesbo"
+            ]
+          },
+          {
+            "group": "İlgili Hizmetler",
+            "pages": [
+              "hizmetlerimiz/hidrofor-sistemleri",
+              "hizmetlerimiz/pompalar",
+              "hizmetlerimiz/su-aritma-sistemleri"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Yerden Isıtma",
+        "icon": "flame",
+        "pages": [
+          "hizmetlerimiz/yerden-isitma-sistemleri",
+          {
+            "group": "Yerden Isıtma Markaları",
+            "pages": [
+              "markalar/alarko",
+              "markalar/baymak",
+              "markalar/caleffi",
+              "markalar/demirdokum",
+              "markalar/eca",
+              "markalar/honeywell",
+              "markalar/rehau",
+              "markalar/siemens",
+              "markalar/varmeks",
+              "markalar/wilo"
+            ]
+          },
+          {
+            "group": "İlgili Hizmetler",
+            "pages": [
+              "hizmetlerimiz/isi-pompalari",
+              "hizmetlerimiz/radyator",
+              "hizmetlerimiz/akilli-oda-termostatlari"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -133,6 +229,10 @@
     "prompt": "Arama yapın..."
   },
   "footerSocials": {
-    "website": "https://gul-tekinmuhendislik.com"
+    "website": "https://gul-tekinmuhendislik.com",
+    "youtube": "https://www.youtube.com/@GÜLTEKİNMÜHENDİSLİK",
+    "github": "https://github.com/gul-tekinmuhendislik",
+    "facebook": "https://www.facebook.com/gultekinbodrum",
+    "x": "https://x.com/gul_tekin_muh"
   }
 }
