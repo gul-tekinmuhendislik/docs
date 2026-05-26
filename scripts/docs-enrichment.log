@@ -22,3 +22,16 @@
 2026-05-26 16:09:29: NLM brand query done (35487 chars)
 2026-05-26 16:09:29: Enriching service: hizmetlerimiz/radyator.mdx
 2026-05-26 16:09:29: Enriching brand: markalar/warmeks.mdx
+2026-05-26 16:09:31: Pushed 3 changes (service: radyator, brand: warmeks)
+2026-05-26 16:09:31: Done
+2026-05-26 16:15:21: Session expired, re-login needed
+2026-05-26 16:15:24: Selecting weakest service page...
+2026-05-26 16:15:24: Weakest service: termosifonik-sistemler (      16 lines)
+2026-05-26 16:15:24: Selecting weakest brand page...
+2026-05-26 16:15:24: Weakest brand: ph-mekanik (       7 lines)
+2026-05-26 16:15:24: Querying NLM for service: termosifonik-sistemler
+2026-05-26 16:15:53: NLM service query done (30723 chars)
+2026-05-26 16:15:53: Querying NLM for brand: ph-mekanik
+2026-05-26 16:16:32: NLM brand query done (28958 chars)
+2026-05-26 16:16:32: Enriching service: hizmetlerimiz/termosifonik-sistemler.mdx
+2026-05-26 16:16:32: Enriching brand: markalar/ph-mekanik.mdx
