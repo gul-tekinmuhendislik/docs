@@ -197,3 +197,12 @@
     gap: 16px;
   }
 }
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .link-card:hover,
+  .link-card.featured:hover,
+  .brand-card:hover {
+    transform: none;
+  }
+}
