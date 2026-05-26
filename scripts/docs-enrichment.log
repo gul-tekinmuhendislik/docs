@@ -1,0 +1,11 @@
+2026-05-26 16:06:43: Session expired, re-login needed
+2026-05-26 16:06:46: Selecting weakest service page...
+2026-05-26 16:06:46: Weakest service: su-aritma-sistemleri (      15 lines)
+2026-05-26 16:06:46: Selecting weakest brand page...
+2026-05-26 16:06:46: Weakest brand: baylan (       5 lines)
+2026-05-26 16:06:46: Querying NLM for service: su-aritma-sistemleri
+2026-05-26 16:07:25: NLM service query done (35740 chars)
+2026-05-26 16:07:25: Querying NLM for brand: baylan
+2026-05-26 16:07:59: NLM brand query done (20569 chars)
+2026-05-26 16:07:59: Enriching service: hizmetlerimiz/su-aritma-sistemleri.mdx
+2026-05-26 16:07:59: Enriching brand: markalar/baylan.mdx
