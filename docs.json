@@ -132,6 +132,13 @@
         "pages": [
           "hizmetlerimiz/isi-pompalari",
           {
+            "group": "Teknik Bilgiler",
+            "pages": [
+              "isi-pompalari/genel-bilgi",
+              "isi-pompalari/varmeks-seriler"
+            ]
+          },
+          {
             "group": "Isı Pompası Markaları",
             "pages": [
               "markalar/alarko",
