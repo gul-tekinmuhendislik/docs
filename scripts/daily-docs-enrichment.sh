@@ -5,10 +5,24 @@
 
 set -uo pipefail
 
-REPO_DIR="/Users/ebartan/gul-tekin-docs"
+# Auto-detect repo root from script location, overrideable via .env
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DEFAULT_REPO_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Source .env if present at repo root
+ENV_FILE="$DEFAULT_REPO_DIR/.env"
+[ -f "$ENV_FILE" ] && set -a && source "$ENV_FILE" && set +a
+
+# Final REPO_DIR: env var wins, fallback to auto-detect
+REPO_DIR="${REPO_DIR:-$DEFAULT_REPO_DIR}"
 LOG_FILE="$REPO_DIR/scripts/docs-enrichment.log"
-DB_URL="postgresql://neondb_owner:npg_fjQXK6w3iWDP@ep-polished-frog-adaec7m0-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require"
-NOTEBOOK="gultekin"
+NOTEBOOK="${NOTEBOOK:-gultekin}"
+
+# DB_URL is required
+if [ -z "${DB_URL:-}" ]; then
+  echo "ERROR: DB_URL is not set. Create a .env file at the project root with DB_URL." >&2
+  exit 1
+fi
 
 log() { echo "$(date +%Y-%m-%d\ %H:%M:%S): $1" >> "$LOG_FILE"; }
 
